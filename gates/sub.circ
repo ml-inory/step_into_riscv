@@ -59,29 +59,14 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="clabel" val=""/>
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif plain 12"/>
-    <wire from="(390,290)" to="(420,290)"/>
-    <wire from="(390,260)" to="(390,290)"/>
-    <wire from="(460,300)" to="(510,300)"/>
-    <wire from="(260,300)" to="(310,300)"/>
-    <wire from="(190,300)" to="(230,300)"/>
-    <wire from="(190,260)" to="(390,260)"/>
-    <wire from="(270,320)" to="(310,320)"/>
-    <wire from="(350,310)" to="(420,310)"/>
-    <comp lib="0" loc="(190,300)" name="Pin">
-      <a name="width" val="8"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="B"/>
-      <a name="labelfont" val="SansSerif plain 20"/>
-    </comp>
-    <comp lib="1" loc="(260,300)" name="NOT Gate">
-      <a name="width" val="8"/>
-    </comp>
-    <comp lib="3" loc="(460,300)" name="Adder"/>
-    <comp lib="0" loc="(270,320)" name="Constant">
-      <a name="width" val="8"/>
-    </comp>
-    <comp lib="3" loc="(350,310)" name="Adder"/>
-    <comp lib="0" loc="(510,300)" name="Pin">
+    <wire from="(390,280)" to="(420,280)"/>
+    <wire from="(440,220)" to="(440,250)"/>
+    <wire from="(460,270)" to="(510,270)"/>
+    <wire from="(320,260)" to="(420,260)"/>
+    <wire from="(420,220)" to="(440,220)"/>
+    <wire from="(320,280)" to="(360,280)"/>
+    <comp lib="3" loc="(460,270)" name="Adder"/>
+    <comp lib="0" loc="(510,270)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
       <a name="width" val="8"/>
@@ -89,11 +74,21 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="labelloc" val="east"/>
       <a name="labelfont" val="SansSerif plain 20"/>
     </comp>
-    <comp lib="0" loc="(190,260)" name="Pin">
+    <comp lib="0" loc="(320,280)" name="Pin">
+      <a name="width" val="8"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="B"/>
+      <a name="labelfont" val="SansSerif plain 20"/>
+    </comp>
+    <comp lib="1" loc="(390,280)" name="NOT Gate">
+      <a name="width" val="8"/>
+    </comp>
+    <comp lib="0" loc="(320,260)" name="Pin">
       <a name="width" val="8"/>
       <a name="tristate" val="false"/>
       <a name="label" val="A"/>
       <a name="labelfont" val="SansSerif plain 20"/>
     </comp>
+    <comp lib="0" loc="(420,220)" name="Constant"/>
   </circuit>
 </project>
