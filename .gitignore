@@ -1,0 +1,13 @@
+# simulation build artefacts
+sim/build/
+*.vvp
+*.vcd
+*.fst
+
+# leftover from iverilog probes
+a.out
+
+# python
+__pycache__/
+*.pyc
+
