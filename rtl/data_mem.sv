@@ -16,7 +16,7 @@ module DataMem (
             end
         end else begin
             // write
-            if (WE) begin
+            if (WE && A != 5'b0) begin
                 reg_array[A] <= WD;
             end else begin
                 RD <= reg_array[A];
